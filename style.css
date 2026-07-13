@@ -1,0 +1,285 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f4f4f4;
+  color:#333;
+  padding:40px;
+}
+
+section{
+  margin-bottom:60px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+hr{
+  margin:50px 0;
+}
+
+
+
+/* ========================= */
+/* Counter App */
+/* ========================= */
+
+.counter-box{
+
+  max-width:400px;
+
+  margin:auto;
+
+  background:white;
+
+  padding:30px;
+
+  text-align:center;
+
+  border-radius:12px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.counter-box h2{
+
+  font-size:60px;
+
+  margin-bottom:25px;
+
+  color:#2563eb;
+
+}
+
+.counter-buttons{
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:20px;
+
+}
+
+.counter-buttons button{
+
+  padding:12px 25px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:#2563eb;
+
+  color:white;
+
+  cursor:pointer;
+
+  font-size:18px;
+
+  transition:.3s;
+
+}
+
+.counter-buttons button:hover{
+
+  background:#1d4ed8;
+
+  transform:scale(1.05);
+
+}
+
+
+
+/* ========================= */
+/* Color Changer */
+/* ========================= */
+
+.color-section{
+
+  text-align:center;
+
+}
+
+.color-box{
+
+  width:300px;
+
+  height:200px;
+
+  margin:30px auto;
+
+  background:white;
+
+  border-radius:12px;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+  transition:.4s;
+
+}
+
+.color-box h2{
+
+  color:#333;
+
+}
+
+#colorBtn{
+
+  padding:14px 25px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:#2563eb;
+
+  color:white;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+}
+
+#colorBtn:hover{
+
+  background:#1d4ed8;
+
+}
+
+
+
+/* ========================= */
+/* BMI Calculator */
+/* ========================= */
+
+.bmi-section{
+
+  text-align:center;
+
+}
+
+#bmiForm{
+
+  max-width:400px;
+
+  margin:auto;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:20px;
+
+}
+
+#bmiForm input{
+
+  padding:15px;
+
+  border:1px solid #ccc;
+
+  border-radius:8px;
+
+  font-size:16px;
+
+}
+
+#bmiForm button{
+
+  padding:15px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:#2563eb;
+
+  color:white;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+}
+
+#bmiForm button:hover{
+
+  background:#1d4ed8;
+
+}
+
+#bmiResult{
+
+  margin-top:30px;
+
+  color:#2563eb;
+
+}
+
+#bmiStatus{
+
+  margin-top:15px;
+
+  font-size:20px;
+
+  font-weight:bold;
+
+}
+
+
+
+/* ========================= */
+/* Responsive */
+/* ========================= */
+
+@media(max-width:768px){
+
+body{
+
+  padding:20px;
+
+}
+
+.counter-buttons{
+
+  flex-direction:column;
+
+}
+
+.counter-buttons button{
+
+  width:100%;
+
+}
+
+.color-box{
+
+  width:100%;
+
+  max-width:320px;
+
+}
+
+#bmiForm{
+
+  width:100%;
+
+}
+
+}

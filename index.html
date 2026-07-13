@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter | Color Changer | BMI Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================= -->
+    <!-- Counter App -->
+    <!-- ========================= -->
+
+    <section class="counter-section">
+
+        <h1>Counter App</h1>
+
+        <div class="counter-box">
+
+            <h2 id="count">
+                0
+            </h2>
+
+            <div class="counter-buttons">
+
+                <button id="decreaseBtn">
+                    -
+                </button>
+
+                <button id="resetBtn">
+                    Reset
+                </button>
+
+                <button id="increaseBtn">
+                    +
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- ========================= -->
+    <!-- Color Changer -->
+    <!-- ========================= -->
+
+    <section class="color-section">
+
+        <h1>Color Changer</h1>
+
+        <div class="color-box" id="colorBox">
+
+            <h2 id="colorName">
+                White
+            </h2>
+
+        </div>
+
+        <button id="colorBtn">
+            Change Color
+        </button>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- ========================= -->
+    <!-- BMI Calculator -->
+    <!-- ========================= -->
+
+    <section class="bmi-section">
+
+        <h1>BMI Calculator</h1>
+
+        <form id="bmiForm">
+
+            <input
+                type="number"
+                id="height"
+                placeholder="Height (cm)"
+                required
+            >
+
+            <input
+                type="number"
+                id="weight"
+                placeholder="Weight (kg)"
+                required
+            >
+
+            <button type="submit">
+                Calculate BMI
+            </button>
+
+        </form>
+
+        <h2 id="bmiResult">
+            Your BMI:
+        </h2>
+
+        <p id="bmiStatus"></p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
